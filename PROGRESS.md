@@ -87,7 +87,7 @@ Objetivo: pasar de "un proyecto Astro en la raíz" a "un monorepo con el sitio d
 - [x] 5. `pnpm install` (184 paquetes) y `pnpm -r build` (4 páginas)
 - [x] 6. `.gitignore` con `.env.*` y excepción `!.env.example`
 - [ ] 7. Commit + actualizar este archivo
-- [ ] 8. Explicar con tus palabras: workspace, monorepo, lockfile, `-r` vs `--filter`
+- [x] 8. Explicado: monorepo vs workspace, lockfile, `-r` vs `--filter`, `private`
 
 ### Etapa 1 — Astro + TypeScript
 - [ ] `tsconfig` estricto + `astro check`
@@ -144,7 +144,7 @@ Objetivo: pasar de "un proyecto Astro en la raíz" a "un monorepo con el sitio d
 
 | Fecha | Etapa | Aprendí | Me costó |
 |---|---|---|---|
-| 2026-10-26 | 0 | — | — |
+| 2026-10-26 | 0 | monorepo ≠ workspace; el lockfile fija versiones exactas; `-r` = todos, `--filter` = uno; `private: true` evita publicar | Los filtros de pnpm y el orden de la migración |
 
 ---
 
