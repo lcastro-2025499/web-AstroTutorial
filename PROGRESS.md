@@ -86,12 +86,12 @@ Objetivo: pasar de "un proyecto Astro en la raíz" a "un monorepo con el sitio d
 - [x] 4. Crear `pnpm-workspace.yaml` y el `package.json` de la raíz
 - [x] 5. `pnpm install` (184 paquetes) y `pnpm -r build` (4 páginas)
 - [x] 6. `.gitignore` con `.env.*` y excepción `!.env.example`
-- [ ] 7. Commit + actualizar este archivo
+- [x] 7. Commit + actualizar este archivo
 - [x] 8. Explicado: monorepo vs workspace, lockfile, `-r` vs `--filter`, `private`
 
 ### Etapa 1 — Astro + TypeScript
-- [ ] `tsconfig` estricto + `astro check`
-- [ ] `Layout.astro` base y componentes reutilizables
+- [x] `tsconfig` estricto + `astro check`
+- [x] `Layout.astro` base y componentes reutilizables
 - [ ] Content collections para el blog (schema con zod) en vez de markdown suelto
 - [ ] Listado y detalle del blog generados desde la collection
 - [ ] Página 404 + RSS

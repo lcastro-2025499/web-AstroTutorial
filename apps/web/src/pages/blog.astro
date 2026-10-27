@@ -1,13 +1,10 @@
-<html lang="es">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Blog</title>
-	</head>
-	<body>
+---
+//Frontmatter
+import Layout from '../layouts/Layout.astro';
+---
+
+<!-- HTML -->
+ <Layout title="Blog">
 		<h1>Bienvenido a mi blog</h1>
         <p>En este blog, compartiré mis pensamientos, experiencias y conocimientos sobre desarrollo web y tecnología en general.</p>
         <p>Espero que disfrutes de mi sitio web y encuentres útil la información que comparto aquí.</p>
@@ -16,5 +13,4 @@
 		<h3>POST</h3>
 		<p>Estos son los post sobre mi proyecto:</p>
 		<p>1. <a href="/posts/post-1">Post 1</a></p>
-	</body>
-</html>
+</Layout>
