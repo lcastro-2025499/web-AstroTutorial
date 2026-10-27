@@ -94,7 +94,7 @@ Objetivo: pasar de "un proyecto Astro en la raíz" a "un monorepo con el sitio d
 - [x] `Layout.astro` base y componentes reutilizables
 - [x] Content collections para el blog (schema con zod) en vez de markdown suelto
 - [x] Listado y detalle del blog generados desde la collection
-- [ ] Página 404 + RSS
+- [x] Página 404 + RSS
 - [ ] Primer island (`client:*`) entendiendo cuándo **no** usar JS
 
 ### Etapa 2 — Tailwind

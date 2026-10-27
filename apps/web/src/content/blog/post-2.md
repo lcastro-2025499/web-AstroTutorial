@@ -20,6 +20,7 @@ Publicado el: 27 de octubre de 2026
 2. **Crear Layouts**: Cree una plantilla (Layout) para implementarla en todos mis arhivos .astro.
 3. **AstroTS**: Añadí `Astro check` junto con TypeScript estricto.
 4. **Coleciones**: Genere un listado de blogs y el detalle de cada entrada a partir de una colección.
+5. **404**: Añadi la página 404 y feed RSS.
 
 ## Próximos pasos
 
