@@ -1,13 +1,11 @@
-<html lang="es">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Home</title>
-	</head>
-	<body>
+---
+//index.astro
+//Frontmatter
+import Layout from '../layouts/Layout.astro';
+---
+
+<!-- HTML -->
+<Layout title="Home">
 		<h1>¡Bienvenido a mi primer sitio web con Astro!</h1>
 		<p>Este es un sitio web creado con Astro, un framework de desarrollo web moderno.</p>
 		<p>En este sitio web, puedes encontrar información sobre mí y mis proyectos.</p>
@@ -15,5 +13,4 @@
 		<p>También puedes visitar mi blog, donde comparto mis pensamientos y experiencias sobre desarrollo web y tecnología en general. <br>
 			Puedes acceder al blog haciendo clic <a href="/blog">aquí</a>.</p>
 		<p>¡Gracias por visitar mi sitio web!</p>
-	</body>
-</html>
+</Layout>
