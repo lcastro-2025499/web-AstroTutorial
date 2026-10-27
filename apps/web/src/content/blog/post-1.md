@@ -1,6 +1,6 @@
 ---
 title: 'Mi primera publicación en el blog'
-pubDate: 25/10/2026
+pubDate: 2026-10-25
 description: 'Esta es la primera publicación de mi nuevo blog de Astro.'
 author: 'Luis Castro'
 image:
